@@ -1,7 +1,7 @@
 {
-  "name": "mernboilerplate2020",
+  "name": "personalcrm",
   "version": "1.0.0",
-  "description": "Skeleton application developed with MERN stack and bootstrap ui",
+  "description": "Personal CRM to keep track of people I've met",
   "main": "app.js",
   "scripts": {
     "start": "node server/app.js",
@@ -18,7 +18,7 @@
     "express",
     "bootstrap"
   ],
-  "author": "Nick Maslov <nickmmaslov@gmail.com>",
+  "author": "Prerit Oberai",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -28,7 +28,11 @@
     "express-validator": "^6.3.0",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",
-    "mongoose": "^5.8.3"
+    "materialize-css": "^1.0.0",
+    "mongoose": "^5.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "concurrently": "^5.0.2"
